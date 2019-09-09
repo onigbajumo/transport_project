@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import './Dummyproject.css';
-import Header from './Header'
+import Header from './Header';
+import Usersadmin from './Usersadmin';
+import Mainbody from './Mainbody';
 
 class Dummyproject extends Component{
     render(){
@@ -10,7 +12,9 @@ class Dummyproject extends Component{
             <p>this is what i want to display in all other pages</p>
             <Header row1 = "Home" row2 = "Contact" row3 = "Support"
             row4="About Us" row5 = "Services" />
-             </div>
+            <Usersadmin /> 
+            <Mainbody />
+            </div>
         )
     }
 }
